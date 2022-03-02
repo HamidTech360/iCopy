@@ -6,7 +6,10 @@
 }
 .header{
     padding: 25px;
-    background-color: whitesmoke;
+    padding-bottom: 10px;
+    /* background-color: whitesmoke; */
+    background-color: #F8F8F8;
+    border-bottom: 1px solid whitesmoke;
     padding-right: 50px;
 }
 .app-name{
@@ -17,7 +20,7 @@
 }
 .NavBar-item{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 100;
 }
 .colored-i{
     color: #FB9C23;
@@ -28,10 +31,11 @@
     color: #3A3A5E;
 }
 .nav-item{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
-    color: #3A3A5E;
-    margin-right: 40px;
+    /* color: #3A3A5E; */
+    color: black;
+    margin-right: 30px;
     cursor: pointer;
     margin-bottom: 10px;
 }

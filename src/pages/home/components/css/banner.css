@@ -1,8 +1,8 @@
 .banner1{
     /* background-color: #F8F8F8; */
-   
+    background-color: #F8F8F8;
     padding-left: 80px;
-
+    padding-bottom: 40px;
 }
 .small-colored{
     margin-top: 100px;
@@ -13,12 +13,12 @@
     /* letter-spacing: 2px; */
 }
 .big-bold{
-    color: #3A3A5E;
+    color: black;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 10px;
-    width: 500px;
+    max-width: 500px;
 }
 .small-text{
     color: #3A3A5E;
@@ -30,13 +30,13 @@
     margin-top: 50px;
 }
 .get-started-btn{
-    background-color: #FB9C23;
-    border-radius: 50px;
+    background-color: #db891d;
+    border-radius: 5px;
     border: 1px solid #FB9C23;
     color: white;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 20px;
@@ -44,7 +44,7 @@
 }
 .read-more{
     background-color: #3A3A5E;
-    border-radius: 50px;
+    border-radius: 5px;
     border: 1px solid #3A3A5E;
     color: white;
     padding-left: 30px;
@@ -90,9 +90,9 @@
     }
     .big-bold{
         width: 100%;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 38px;
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 42px;
     }
     .banner1-img{
         height: 300px;
