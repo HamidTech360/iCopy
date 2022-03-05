@@ -4,13 +4,17 @@
    padding-bottom: 20px;
    padding-left: 30px;
    padding-right:30px;
-   color:  #3A3A5E;
+   /* color:  #3A3A5E; */
    border: 1px solid white;
    border-radius: 10px;
+}
+.card-icons{
+   color: #82859e;
 }
 .cards{
     padding-left: 70px;
     padding-right: 70px;
+    padding-top: 50px;
 
 }
 .card-imgs{
@@ -47,5 +51,12 @@
     .cards{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .card-imgs{
+        width: 100px;
+        height: 100px;
+    }
+    .card-details{
+        font-size: 15px;
     }
 }

@@ -1,18 +1,17 @@
 .our-service{
-    margin-top: 80px;
+    padding-top: 80px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     line-height: 25px;
     font-size: 14px;
     font-weight: 500;
+    background-color: #fff;
 }
-/* .what-we-do{
-    color: #FB9C23;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 10px;
-} */
+.service-light{
+    font-size: 15px;
+    white-space: pre-line;
+}
 .service-bold{
     font-weight: 700;
     color: black;
@@ -20,17 +19,36 @@
     font-size: 30px;
     margin-bottom: 10px;
 }
+.Badge{
+    /* background-color: #f1b86d; */
+
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width:768px) {
     .our-service{
-        /* padding-left: 40px;
-        padding-right: 40px; */
-
+        padding-left: 15px;
+        padding-right: 20px;
+        text-align: justify;
     }
+   
     .service-bold{
-        font-size: 30px;
+        font-size: 20px;
+        max-width: 140px;
+        margin-bottom: 20px;
     }
     .what-we-do{
         font-size: 18px;
+    }
+    .service-light{
+        font-size: 14px;
+        white-space: pre-line;
     }
 }

@@ -4,6 +4,10 @@
     border-radius: 50%;
     
 }
+.menu-icon{
+    height: 70px;
+    width: 60px;
+}
 .header{
     padding: 25px;
     padding-bottom: 10px;

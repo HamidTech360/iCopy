@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio'
 import ContactMe from './components/contactMe'
 import Header from './components/header'
 import Logos from './components/logos'
+import Footer from '../../components/footer/footer'
 import './components/css/home.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css'
@@ -25,10 +26,11 @@ const Home = ()=>{
             <Banner/>
             <OurService/>
             {/* <Logos/> */}
-            <Cards/>
             <Banner2/>
-            <Portfolio/>
-            <ContactMe/>
+            <Cards/>
+            {/* <Portfolio/> */}
+            {/* <ContactMe/> */}
+            <Footer/>
         </div>
     
     )}

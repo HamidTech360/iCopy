@@ -116,7 +116,7 @@ const Header = () => {
                {list()}
           </SwipeableDrawer>
             {/* <img src="../../../assets/icopy.jpg" alt="logo" className="logo-img" /> */}
-            <span className="app-name"> <span className="colored-i">i</span>copy Story</span>
+            <span className="app-name"> <span className="colored-i">i</span>copy<span className="colored-i">S</span>tory</span>
             <span className="pull-right">
                 <span className="hideOnMobile">
                     <ul className="nav ">
@@ -140,7 +140,7 @@ const Header = () => {
                 </span>
                 <span className="hideOnDesktop" onClick={toggleDrawer('right', true)}>
                     
-                        <i className="fa fa-bars fa-2x"></i>
+                        <img src="./assets/menu-icon.webp" alt="menu-icon" className='menu-icon' />
                    
                 </span>
             </span>

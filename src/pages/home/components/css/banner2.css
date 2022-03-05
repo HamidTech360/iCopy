@@ -1,10 +1,10 @@
 .banner2{
     
-    background-color:  #3A3A5E;
+    background-color:  #00052b;
     padding: 50px;
     padding-right: 200px;
     padding-left: 200px;
-    margin-top: 50px;
+   
 }
 .banner2-medium{
     font-weight: 600;
@@ -23,7 +23,29 @@
     font-size: 500;
     line-height: 24px;
     font-size: 14px;
-    color: white;
+    color: whitesmoke;
+}
+.client-img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+}
+.client-name-box{
+    margin-top: 20px;
+}
+.client-name{
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn-client-underline{
+    border: 0px solid #df8919;
+    background-color: #df8919;
+    width: 50px;
+    
 }
 @media screen and (max-width:768px) {
     .bn1-grid1{
@@ -32,5 +54,8 @@
     .banner2{
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .banner2-bold{
+        font-size: 26px;
     }
 }

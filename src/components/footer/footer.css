@@ -1,0 +1,68 @@
+.privacy{
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: bold;
+    color: grey;
+}
+.footer{
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    min-height: 100px;
+    background-color: #00052b;
+    color: whitesmoke;
+font-size: 10px;
+}
+.footer-text{
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 500px;
+    margin-top: 30px;
+}
+.footer-icons{
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.footer-icon{
+    margin-right: 20px;
+}
+.footer-hr{
+    margin-top: 40px;
+}
+.designed-by{
+    font-size: 12px;
+    font-weight: 500;
+}
+.copyright{
+    color: lightgrey;
+    font-weight: bold;
+}
+.foterIcon{
+    margin-right: 50px;
+    color: grey;
+}
+.drop-mail-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-send-mail{
+    background-color: #FB9C23;
+    color: white;
+    font-size: 12px;
+    height: 35px;
+    border: 0px;
+}
+.send-mail-inpt{
+    /* border-radius: 3px; */
+    height: 35px;
+    margin-left: 0px;
+    border: 0px;
+}
+
+@media screen and (max-width:768px) {
+    .footer-icons{
+        padding-left: 20px;
+    }
+}
