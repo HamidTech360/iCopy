@@ -16,7 +16,7 @@ const Footer =()=>{
        <div className="row">
             <div className="footer-text col-lg-7 col-md-7 col-sm-12 col-xs-12">
                 <div className="drop-mail-box">
-                    <button className=" btn-send-mail" style={{backgroundColor:'#FB9C23', color:'white', fontSize:'12px', marginRight:'0px'}}>Send mail</button>
+                    <button className=" btn-send-mail" style={{ color:'white', fontSize:'12px', marginRight:'0px'}}>Send mail</button>
                     <input type="text" className="send-mail-inpt" />
                 </div>
                 Your reliable plug for virtual topup, data subscription, online payment 
@@ -29,6 +29,24 @@ const Footer =()=>{
                 <i className="fa footer-icon fa-linkedin fa-2x"></i>
             </div>
             
+       </div>
+
+       <div className="footer-links">
+           <div className="footer-link-header">Pages</div>
+           <div className="footer-link-grid row">
+               <div className="footer-link-item col-4">Home</div>
+               <div className="footer-link-item col-4">About</div>
+               <div className="footer-link-item col-4">Services</div>
+               <div className="footer-link-item col-4">Portfolio</div>
+               <div className="footer-link-item col-4">Contact</div>
+               <div className="footer-link-item col-4">Admin</div>
+               <div className="footer-link-item col-4">Home</div>
+               <div className="footer-link-item col-4">About</div>
+               <div className="footer-link-item col-4">Services</div>
+               <div className="footer-link-item col-4">Portfolio</div>
+               <div className="footer-link-item col-4">Contact</div>
+               <div className="footer-link-item col-4">Admin</div>
+           </div>
        </div>
 
        <hr className="footer-hr" />

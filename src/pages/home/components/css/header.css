@@ -6,7 +6,7 @@
 }
 .menu-icon{
     height: 70px;
-    width: 60px;
+    width: 40px;
 }
 .header{
     padding: 25px;
@@ -15,11 +15,13 @@
     background-color: #F8F8F8;
     border-bottom: 1px solid whitesmoke;
     padding-right: 50px;
+    
+    
 }
 .app-name{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 25px;
-    color: #3A3A5E;
+    color: #00052b;
     letter-spacing: 2px;
 }
 .NavBar-item{
@@ -60,7 +62,10 @@
 .hideOnDesktop{
     display: none;
 }
-
+.NavBar-item-item-text{
+    font-size: 18px;
+    font-weight: 400;
+}
 @media screen and (max-width:962px) and (min-width:769px){
     .nav-item{
         margin-top: 20px;
@@ -71,6 +76,8 @@
 @media screen and (max-width:768px) {
     .header{
         padding-right: 20px;
+        height: fit-content;
+        border-bottom: 1px solid whitesmoke;
     }
     .hideOnMobile{
         display: none;
@@ -82,7 +89,8 @@
         letter-spacing: 0px;
     }
     .btn-contactus{
-        margin-left: 20px;
+        margin-left: 50px;
         background-color: #FB9C23;
+        margin-bottom: 40px;
     }
 }

@@ -14,6 +14,7 @@
     /* letter-spacing: 2px; */
 }
 .big-bold{
+    font-family: 'Lato', sans-serif;
     color: black;
     font-weight: 800;
     font-size: 40px;
@@ -99,9 +100,9 @@
     }
     .big-bold{
         width: 100%;
-        font-size: 39px;
-        font-weight: 900;
-        line-height: 45px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48px;
     }
     .banner1-img{
         height: 300px;

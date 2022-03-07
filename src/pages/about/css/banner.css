@@ -1,0 +1,28 @@
+.about-banner{
+    padding-top: 70px;
+    padding-left: 100px;
+    background-color: #F8F8F8;
+}
+.about-bold{
+    padding-top: 50px;
+    margin-bottom: -15px;
+}
+.about-line{
+    border: 0px;
+    background-color:#df8919 ;
+    width: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width:768px) {
+    .about-banner{
+        padding-left: 0px;
+    }
+    .about-bold{
+        margin-bottom: -15px;
+    }
+    .about-line{
+        margin-bottom: 0px;
+    }
+}

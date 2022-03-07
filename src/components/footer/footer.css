@@ -31,6 +31,22 @@ font-size: 10px;
 .footer-hr{
     margin-top: 40px;
 }
+.footer-links{
+    color: grey;
+}
+.footer-link-header{
+    font-size: 19px;
+    color: lightgrey;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.footer-link-grid{
+    width: 300px;
+}
+.footer-link-item{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
 .designed-by{
     font-size: 12px;
     font-weight: 500;
@@ -48,7 +64,7 @@ font-size: 10px;
     margin-bottom: 20px;
 }
 .btn-send-mail{
-    background-color: #FB9C23;
+    background-color: #a56b20;
     color: white;
     font-size: 12px;
     height: 35px;

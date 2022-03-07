@@ -5,12 +5,13 @@ import { makeStyles } from '@material-ui/core'
 import { Box } from '@material-ui/core'
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import List from '@material-ui/core/List';
+import {HiMenuAlt1} from 'react-icons/hi'
 import './css/header.css'
 
 
 const useStyles = makeStyles({
   paper:{
-    background:'#1D1E26',
+    background:'#00052b',
     color:'whitesmoke',
     paddingTop:'30px'
   }
@@ -28,20 +29,20 @@ const Header = () => {
         },
         {
             id:1,
-            name:'Admin',
-            link:'/login'
+            name:'About',
+            link:'/about'
         },
         {
             id:2,
             name:'Services',
-            link:'/#service',
-            hash:true
+            link:'/services',
+          
         },
         {
             id:3,
             name:'Portfolio Showcase',
-            link:'/#portfolio',
-            hash:true
+            link:'/portfolio',
+           
         },
         {
             id:4,
@@ -72,20 +73,20 @@ const Header = () => {
         <Box
           sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
           role="presentation"
-          onClick={toggleDrawer('right', false)}
-          onKeyDown={toggleDrawer('right', false)}
+          onClick={toggleDrawer('top', false)}
+          onKeyDown={toggleDrawer('top', false)}
           
         >
           <List>
                 {NavOptions.map((item, index) => (
                   item.hash?
-                  <div className="NavBar-item" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', marginBottom:'30px'}}>
+                  <div className="NavBar-item text-center" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', marginBottom:'30px'}}>
                   <HashLink to={item.link} style={{textDecoration:'none', color:'lightgrey'}}>
                     <span className="NavBar-item-item-icon"> <i className={`fa ${item.icon} fa-1x`}></i> </span>
                      <span className="NavBar-item-item-text">{item.name}</span>
                   </HashLink>
                 </div>:
-                  <div className="NavBar-item" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', marginBottom:'30px'}}>
+                  <div className="NavBar-item text-center" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', marginBottom:'30px'}}>
                       <Link to={item.link} style={{textDecoration:'none', color:'lightgrey'}}>
                         <span className="NavBar-item-item-icon"> <i className={`fa ${item.icon} fa-1x`}></i> </span>
                          <span className="NavBar-item-item-text">{item.name}</span>
@@ -93,12 +94,12 @@ const Header = () => {
                   </div>
                 ))} 
                 <HashLink to={"/#contactMe"}>
-                <div className="navBar-item">
+                <div className="navBar-item text-center">
                   <button className="btn-contactus">Contact Me</button>
                 </div>
                 </HashLink>
             </List>
-         <hr/>
+   
         
         </Box>
       );
@@ -107,10 +108,10 @@ const Header = () => {
     return ( 
         <div className="header">
              <SwipeableDrawer
-            anchor={'right'}
-            open={state['right']}
-            onClose={toggleDrawer('right', false)}
-            onOpen={toggleDrawer('right', true)}
+            anchor={'top'}
+            open={state['top']}
+            onClose={toggleDrawer('top', false)}
+            onOpen={toggleDrawer('top', true)}
             classes={{paper:styles.paper}}
           >
                {list()}
@@ -138,9 +139,9 @@ const Header = () => {
                        </HashLink>
                     </ul>
                 </span>
-                <span className="hideOnDesktop" onClick={toggleDrawer('right', true)}>
+                <span className="hideOnDesktop" onClick={toggleDrawer('top', true)}>
                     
-                        <img src="./assets/menu-icon.webp" alt="menu-icon" className='menu-icon' />
+                       <HiMenuAlt1 size={35} />
                    
                 </span>
             </span>
