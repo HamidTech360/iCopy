@@ -11,6 +11,7 @@
 .service-light{
     font-size: 15px;
     white-space: pre-line;
+    font-family: 'Roboto Slab', serif;
 }
 .service-bold{
     font-weight: 700;
@@ -18,6 +19,7 @@
     margin-bottom: 20px;
     font-size: 30px;
     margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
 }
 .Badge{
     /* background-color: #f1b86d; */
@@ -48,7 +50,9 @@
         font-size: 18px;
     }
     .service-light{
-        font-size: 14px;
+        font-size: 15px;
         white-space: pre-line;
+        font-weight: 500;
+
     }
 }

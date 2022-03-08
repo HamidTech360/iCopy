@@ -25,7 +25,7 @@ const Header = () => {
         {
             id:0,
             name:'Home',
-            link:'/home'
+            link:'/'
         },
         {
             id:1,
@@ -35,7 +35,7 @@ const Header = () => {
         {
             id:2,
             name:'Services',
-            link:'/services',
+            link:'/service',
           
         },
         {

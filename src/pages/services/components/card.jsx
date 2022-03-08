@@ -5,7 +5,7 @@ const Card = () => {
         <div className="service-card">
             <img src={``} alt="service" className='service-img' />
             <div className="service-text">
-                
+                <img src="../../../assets/placeholder2.jpg" alt="placeholder" />
             </div>
             <div className="service-read-more">Learn more</div>
             <hr/>

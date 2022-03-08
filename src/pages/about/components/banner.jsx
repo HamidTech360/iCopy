@@ -21,7 +21,7 @@ const AboutBanner = () => {
                     </div>
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 bn1-grid2">
-                    <img src="../../../assets/bg_1.svg" alt="banner" className="banner1-img" />
+                    <img src="../../../assets/banner-image2.png" alt="banner" className="banner1-img" />
                 </div>
             </div>
         </div>
