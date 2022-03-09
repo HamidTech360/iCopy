@@ -5,13 +5,14 @@
     padding-bottom: 80px;
     line-height: 25px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     background-color: #fff;
 }
 .service-light{
-    font-size: 15px;
+    font-size: 12px !important;
+    font-weight: 400 !important;
     white-space: pre-line;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;
 }
 .service-bold{
     font-weight: 700;
@@ -50,7 +51,7 @@
         font-size: 18px;
     }
     .service-light{
-        font-size: 15px;
+        font-size: 14px !important;
         white-space: pre-line;
         font-weight: 500;
 

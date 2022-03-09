@@ -4,15 +4,15 @@ import '../css/banner.css'
 const AboutBanner = () => {
     return ( 
         <div className="about-banner">
-            <div className=" row">
-                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 bn1-grid1 banner-grid" >
+            <div className="row">
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12  about-banner-grid" >
                     
                     <div className="big-bold about-bold">
                         ABOUT ME
                         
                     </div>
                     <button className="about-line"></button>
-                    <div className="small-text">
+                    <div className="about-small-text">
                         <div>Hey there</div>   
                         <div>Meet The StoryMarketer</div> 
                     </div>

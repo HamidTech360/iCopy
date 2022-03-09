@@ -40,7 +40,7 @@ const Header = () => {
         },
         {
             id:3,
-            name:'Portfolio Showcase',
+            name:'Portfolio',
             link:'/portfolio',
            
         },
@@ -117,26 +117,33 @@ const Header = () => {
                {list()}
           </SwipeableDrawer>
             {/* <img src="../../../assets/icopy.jpg" alt="logo" className="logo-img" /> */}
-            <span className="app-name"> <span className="colored-i">i</span>copy<span className="colored-i">S</span>tory</span>
+            <span className="app-name"> <span className="colored-i">I</span>COPY<span className="colored-i">S</span>TORY</span>
             <span className="pull-right">
                 <span className="hideOnMobile">
                     <ul className="nav ">
-                        {NavOptions.map((el, i)=>
-                          el.hash?
-                          <HashLink to={el.link} key={i} style={{textDecoration:'none'}}>
-                              <li className="nav-item">{el.name}</li>
-                          </HashLink>:
+                       
+                          <Link to={'/'}  style={{textDecoration:'none'}}>
+                              <li className="nav-item">Home</li>
+                          </Link>
 
-                          <Link key={i} to={el.link} style={{textDecoration:'none'}}>
-                          <li className="nav-item">{el.name}</li>
+                          <Link  to={'/about'} style={{textDecoration:'none'}}>
+                          <li className="nav-item">About</li>
                          </Link> 
-                        )}
+
+                         <Link  to={'/service'} style={{textDecoration:'none'}}>
+                            <li className="nav-item">Services</li>
+                         </Link>
+
+                         <Link  to={'/portfolio'} style={{textDecoration:'none'}}>
+                            <li className="nav-item">Portfolio</li>
+                         </Link>
                         
-                       <HashLink to={"/#contactMe"}>
+                        
+                       <Link to={"/contactMe"}>
                        <li>
                             <button className="btn-contactus">Contact Us</button>
                         </li>
-                       </HashLink>
+                       </Link>
                     </ul>
                 </span>
                 <span className="hideOnDesktop" onClick={toggleDrawer('top', true)}>

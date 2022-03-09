@@ -14,15 +14,24 @@
     margin-bottom: 50px;
     margin-left: 100px;
 }
-
+.about-small-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
 @media screen and (max-width:768px) {
     .about-banner{
-        padding-left: 0px;
+        padding-left: 40px;
+        padding-top: 40px;
     }
     .about-bold{
         margin-bottom: -15px;
     }
     .about-line{
         margin-bottom: 0px;
+    }
+    .about-small-text{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-top: 30px;
     }
 }
