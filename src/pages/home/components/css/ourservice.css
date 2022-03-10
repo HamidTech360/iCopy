@@ -23,7 +23,7 @@
     font-family: 'Roboto Slab', serif;
 }
 .text-2{
-    border-left: 4px solid rgb(92, 92, 224);
+    border-left: 3px solid #ec8f14 !important;
     padding-left: 14px;
     padding-right: 14px;
     padding-bottom: 20px;
