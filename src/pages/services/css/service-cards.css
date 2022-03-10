@@ -1,3 +1,11 @@
 .service-cards{
     background-color: whitesmoke;
+    padding-left: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .service-cards{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }

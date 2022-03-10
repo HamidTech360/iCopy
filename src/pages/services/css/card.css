@@ -1,0 +1,31 @@
+.service-imgs{
+    height: 200px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.service-card{
+    background-color: white;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.service-text{
+    padding: 15px;
+    
+}
+.service-text-bold{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.service-text-light{
+    font-size: 12px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.learn-more-service{
+    padding-top: 10px;
+    color: #FB9C23;
+    font-size: 12px;
+}

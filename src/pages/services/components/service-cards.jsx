@@ -7,16 +7,18 @@ const ServiceCards = () => {
     return ( 
         <div className="service-cards">
             <div className="row">
-                <div className="col-lg-4 col-md-5 col-sm-12 col-xs-12">
-                    <Card/>
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <Card
+                        
+                    />
                 </div>
-                <div className="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                      <Card/>
                 </div>
-                <div className="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <Card/>
                 </div>
-                <div className="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <Card/>
                 </div>
             </div>

@@ -5,7 +5,7 @@ const ServiceBanner = () => {
     return ( 
         <div className="about-banner">
             <div className=" row">
-                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 bn1-grid1 banner-grid" >
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 " >
                     
                     <div className="big-bold about-bold">
                         SERVICES

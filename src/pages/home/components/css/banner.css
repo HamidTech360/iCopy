@@ -3,21 +3,22 @@
     background-color: #F8F8F8;
     padding-left: 40px;
     padding-bottom: 40px;
-    font-family: 'Sarabun', sans-serif
+    /* font-family: 'Sarabun', sans-serif */
+    font-family: 'Poppins', sans-serif;
 }
 
 .big-bold{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;
     color: black;
-    font-weight: 800;
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 30px;
     line-height: 48px;
     /* margin-bottom: 40px; */
     max-width: 500px;
 }
 #big-bold-1{
     color: #ec8f14;
-    font-weight: 700;
+    font-weight: 600;
 }
 #big-bold-2{
     font-size: 30px;
@@ -98,14 +99,15 @@
     .banner-grid{
        padding-top: 50px;
        padding-left: 20px !important;
-
+        text-align: center;
     }
     .big-bold{
         width: 100%;
         font-size: 30px;
         font-weight: 800;
         line-height: 48px;
-        padding-right: 23px;
+        padding-right: 40px !important;
+
     }
     .banner1-img{
         height: 300px;
