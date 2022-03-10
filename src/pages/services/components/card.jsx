@@ -10,9 +10,9 @@ const Card = ({img, heading, text, link}) => {
                 <img src="../../../assets/placeholder2.jpg" alt="placeholder" className="service-imgs" />
             </div>
             <div className="service-text">
-                <div className="service-text-bold text-center">CopyWritting</div>
+                <div className="service-text-bold text-center"> {heading }</div>
                 <div className="service-text-light text-center">
-                    Shoot your revenue to the sky with sizzling storyselling Sales Copy, Emails, VSLs, and Landing Page Copy. 
+                    {text} 
                 </div>
             </div>
             

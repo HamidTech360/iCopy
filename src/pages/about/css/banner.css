@@ -20,7 +20,7 @@
 }
 @media screen and (max-width:768px) {
     .about-banner{
-        padding-left: 40px;
+        padding-left: 0px;
         padding-top: 40px;
     }
     .about-bold{
@@ -28,6 +28,9 @@
     }
     .about-line{
         margin-bottom: 0px;
+    }
+    .about-banner-grid{
+        text-align: center;
     }
     .about-small-text{
         font-family: 'Poppins', sans-serif;
