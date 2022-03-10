@@ -43,7 +43,7 @@ const OurService = () => {
                 <div className="text-1">
                     {text1}
                 </div>
-                <div className="alert-secondary text-2">
+                <div className="alert-warning text-2">
                      {text2}             
                 </div>
                 <div className="text3">
