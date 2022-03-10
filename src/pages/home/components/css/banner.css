@@ -94,7 +94,7 @@
     }
     .big-bold{
         width: 100%;
-        font-size: 30px;
+        font-size: 30px !important;
         font-weight: 800;
         line-height: 45px;
         padding-right: 0px !important;
