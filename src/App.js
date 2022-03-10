@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/home/home';
 import About from './pages/about/about'
 import Services from './pages/services/service';
+import Copywriting from './pages/copywriting/copywriting';
 
 
 // import Post from './pages/post/post'
@@ -15,6 +16,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/about" component={About}/>
+        <Route path="/copywriting" component={Copywriting}/>
         <Route path="/service" component={Services}/>
         <Route path="/" component={Home}/>
 

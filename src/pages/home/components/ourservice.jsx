@@ -2,15 +2,17 @@ import React from 'react'
 import './css/ourservice.css'
 const OurService = () => {
 
-    const serviceText = `
-    Have you been wondering why your subscribers have been a bit shy of your products lately? 
-    Or you feel you haven't actually hit the right chords in persuading your subscribers to buy your products and services? 
-    
-    I think we have the PERFECT solution for you! 
-    
+    const text1=`
+        Have you been wondering why your subscribers have been a bit shy of your products lately? 
+        Or you feel you haven't actually hit the right chords in persuading your subscribers to buy your products and services? 
+        
+        I think we have the PERFECT solution for you! 
+    `
+    const text2=`   
     My name is Tajudeen Yusuf, and I'm popularly known as the StoryMarketer.  
     I help businesses market their products by telling relatable stories, historical events, trending news, unforgettable movie scenes, relevant anecdotes, witty sayings and proverbs, etc primarily through the medium of email and other copy formats.
-    
+    `
+    const serviceText = `
     But why STORYSELLING, you ask? 
     
     Stories, since inception, have been used to sell millions of products to prospects because they work.  
@@ -38,7 +40,15 @@ const OurService = () => {
             <div className="Badge alert-warning">Shall we help you sell your stories</div>
             <div className="service-bold">Hello buisness builder !!</div>
             <div className="service-light">
-               {serviceText}
+                <div className="text-1">
+                    {text1}
+                </div>
+                <div className="alert-secondary text-2">
+                     {text2}             
+                </div>
+                <div className="text3">
+                    {serviceText}
+                </div>
             </div>
         </div>
      );

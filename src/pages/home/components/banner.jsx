@@ -16,11 +16,13 @@ const Banner = () => {
                     </Zoom>
                     <Zoom clear duration={1500}>
                         <div className="small-text">
-                            Shall we help you sell them?   
+                        Shall we help you sell them? <br />
+                             I'm popularly known as the StoryMarketer <br />
+                              
                         </div>
                     </Zoom>
                     <div className="banner-btns">
-                        <button className=" get-started-btn ">Get Started <i className="fa fa-arrow-right"></i> </button>
+                        <button className=" get-started-btn ">YES please <i className="fa fa-arrow-right"></i> </button>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bn1-grid2">
