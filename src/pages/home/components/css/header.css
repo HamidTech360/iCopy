@@ -12,8 +12,8 @@
     padding: 25px;
     padding-bottom: 10px;
     /* background-color: whitesmoke; */
-    background-color: white;
-    border-bottom: 1px solid whitesmoke;
+    background-color: #6654F0;
+    border-bottom: 1px solid #7a6af5;
     padding-right: 50px;
     
     
@@ -79,7 +79,7 @@
     .header{
         padding-right: 20px;
         height: fit-content;
-        border-bottom: 1px solid whitesmoke;
+        border-bottom: 1px solid #7a6af5;
     }
     .hideOnMobile{
         display: none;

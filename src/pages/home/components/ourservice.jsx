@@ -37,13 +37,13 @@ const OurService = () => {
     `
     return ( 
         <div className="our-service" id="service">
-            <div className="Badge alert-warning">Shall we help you sell your stories</div>
+            <div className="Badge alert-primary">Shall we help you sell your stories</div>
             <div className="service-bold">Hello buisness builder !!</div>
             <div className="service-light">
                 <div className="text-1">
                     {text1}
                 </div>
-                <div className="alert-warning text-2">
+                <div className="text-2">
                      {text2}             
                 </div>
                 <div className="text3">
