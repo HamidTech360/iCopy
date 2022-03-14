@@ -7,31 +7,31 @@
     padding-left: 40px;
     padding-bottom: 40px;
     font-family: 'Poppins', sans-serif;
-    background-color: #6654F0;
+    background-color: #eff6f2;
     min-height: 100vh;
 }
 
 .big-bold{
     font-family: 'Poppins', sans-serif;
-    color: black;
-    font-weight: 600;
+    color: rgb(34, 34, 34);
+    font-weight: 700 !important;
     font-size: 35px !important;
     line-height: 48px;
     /* margin-bottom: 40px; */
     max-width: 500px;
 }
 #big-bold-1{
-    color: lightgrey;
-    font-weight: 600;
+    /* color: rgb(199, 192, 192); */
+    font-weight: 700;
 }
 #big-bold-2{
     /* font-size: 30px; */
 }
 .small-text{
-    color: white;
+    /* color: white; */
     font-size: 13px;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: 400 !important;
     margin-top: 25px;
     max-width: 500px;
     
@@ -40,17 +40,18 @@
     margin-top: 50px;
 }
 .get-started-btn{
-    background-color: #333c56;
-    border-radius: 5px;
-    border: 1px solid #333c56;
-    color: white;
+    background-color: #c08008;
+    border-radius: 45px;
+    /* border: 1px solid #FB9C23; */
+    border: 0px;
+    color: whitesmoke;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 14px !important;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .banner1-img{
@@ -101,11 +102,11 @@
         font-size: 30px !important;
         font-weight: 800;
         line-height: 45px;
-        padding-right: 60px !important;
+        padding-right: 40px !important;
 
     }
     #big-bold-1{
-        max-width: 350px;
+        max-width: 370px;
         line-height: 48px;
     }
     #big-bold-2{

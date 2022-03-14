@@ -25,7 +25,7 @@ const Banner = () => {
                         <button className=" get-started-btn ">YES please <i className="fa fa-arrow-right"></i> </button>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bn1-grid2">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bn1-grid2 hideOnMobile">
                     <img src="./assets/banner-image2.png" alt="banner" className="banner1-img" />
                 </div>
             </div>

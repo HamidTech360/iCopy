@@ -71,10 +71,10 @@ const Header = () => {
     
       const list = (anchor) => (
         <Box
-          sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+          sx={{ width: anchor === 'right' || anchor === 'bottom' ? 'auto' : 250 }}
           role="presentation"
-          onClick={toggleDrawer('top', false)}
-          onKeyDown={toggleDrawer('top', false)}
+          onClick={toggleDrawer('right', false)}
+          onKeyDown={toggleDrawer('right', false)}
           
         >
           <List>
@@ -108,10 +108,10 @@ const Header = () => {
     return ( 
         <div className="header">
              <SwipeableDrawer
-            anchor={'top'}
-            open={state['top']}
-            onClose={toggleDrawer('top', false)}
-            onOpen={toggleDrawer('top', true)}
+            anchor={'right'}
+            open={state['right']}
+            onClose={toggleDrawer('right', false)}
+            onOpen={toggleDrawer('right', true)}
             classes={{paper:styles.paper}}
           >
                {list()}
@@ -146,9 +146,9 @@ const Header = () => {
                        </Link>
                     </ul>
                 </span>
-                <span className="hideOnDesktop" onClick={toggleDrawer('top', true)}>
+                <span className="hideOnDesktop" onClick={toggleDrawer('right', true)} style={{fontWeight:'300'}}>
                     
-                       <HiMenuAlt1 size={35} />
+                       <HiMenuAlt1 size={33} />
                    
                 </span>
             </span>
