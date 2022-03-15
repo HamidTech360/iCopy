@@ -10,7 +10,7 @@
 }
 .service-light{
     font-size: 14px !important;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
     white-space: pre-line;
     font-family: 'Poppins', sans-serif;
 }
@@ -62,7 +62,7 @@
     .service-light{
         font-size: 13px !important;
         white-space: pre-line;
-        font-weight: 500 !important;
+        font-weight: 400 !important;
 
     }
 }

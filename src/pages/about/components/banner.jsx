@@ -8,7 +8,7 @@ const AboutBanner = () => {
                 <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12  about-banner-grid" >
                     
                     <div className="big-bold about-bold">
-                        ABOUT ME
+                        Meet the story Marketer
                         
                     </div>
                     <button className="about-line"></button>

@@ -6,13 +6,15 @@ import { Box } from '@material-ui/core'
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import List from '@material-ui/core/List';
 import {HiMenuAlt1} from 'react-icons/hi'
+import {Divider} from '@material-ui/core'
 import './css/header.css'
 
 
 const useStyles = makeStyles({
   paper:{
-    background:'#00052b',
-    color:'whitesmoke',
+    width:'300px',
+    // background:'#00052b',
+    // color:'whitesmoke',
     paddingTop:'30px'
   }
 })
@@ -80,24 +82,25 @@ const Header = () => {
           <List>
                 {NavOptions.map((item, index) => (
                   item.hash?
-                  <div className="NavBar-item text-center" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', marginBottom:'30px'}}>
-                  <HashLink to={item.link} style={{textDecoration:'none', color:'lightgrey'}}>
+                  <div className="NavBar-item" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', paddingBottom:'10px',paddingTop:'10px', border:'1px solid grey'}}>
+                  <HashLink to={item.link} style={{textDecoration:'none', color:'black'}}>
                     <span className="NavBar-item-item-icon"> <i className={`fa ${item.icon} fa-1x`}></i> </span>
                      <span className="NavBar-item-item-text">{item.name}</span>
                   </HashLink>
+                  <Divider/>
                 </div>:
-                  <div className="NavBar-item text-center" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', marginBottom:'30px'}}>
-                      <Link to={item.link} style={{textDecoration:'none', color:'lightgrey'}}>
+                  <div className="NavBar-item" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', paddingBottom:'15px',paddingTop:'15px',  borderBottom:'1px solid whitesmoke'}}>
+                      <Link to={item.link} style={{textDecoration:'none', color:'#2b044d', fontWeight:'800'}}>
                         <span className="NavBar-item-item-icon"> <i className={`fa ${item.icon} fa-1x`}></i> </span>
                          <span className="NavBar-item-item-text">{item.name}</span>
                       </Link>
                   </div>
                 ))} 
-                <HashLink to={"/#contactMe"}>
-                <div className="navBar-item text-center">
+                {/* <HashLink to={"/#contactMe"}>
+                <div className="navBar-item">
                   <button className="btn-contactus">Contact Me</button>
                 </div>
-                </HashLink>
+                </HashLink> */}
             </List>
    
         
@@ -107,12 +110,13 @@ const Header = () => {
      const styles = useStyles() 
     return ( 
         <div className="header">
-             <SwipeableDrawer
+          <SwipeableDrawer
             anchor={'right'}
             open={state['right']}
             onClose={toggleDrawer('right', false)}
             onOpen={toggleDrawer('right', true)}
             classes={{paper:styles.paper}}
+            transitionDuration={800}
           >
                {list()}
           </SwipeableDrawer>

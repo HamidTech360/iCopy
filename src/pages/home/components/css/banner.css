@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding-left: 70px;
     padding-bottom: 40px;
     font-family: 'Poppins', sans-serif;
     background-color: #eff6f2;
@@ -12,11 +12,12 @@
 }
 
 .big-bold{
-    font-family: 'Poppins', sans-serif;
-    color: rgb(34, 34, 34);
-    font-weight: 700 !important;
-    font-size: 35px !important;
+    font-family: 'Nunito', sans-serif;
+    color: #150325;
+    font-weight: 800 !important;
+    font-size: 38px !important;
     line-height: 48px;
+   
     /* margin-bottom: 40px; */
     max-width: 500px;
 }
@@ -24,12 +25,15 @@
     /* color: rgb(199, 192, 192); */
     font-weight: 700;
 }
+.big-bold-colored{
+    color: #c08008;
+}
 #big-bold-2{
     /* font-size: 30px; */
 }
 .small-text{
     /* color: white; */
-    font-size: 13px;
+    font-size: 15px;
     line-height: 20px;
     font-weight: 400 !important;
     margin-top: 25px;

@@ -11,8 +11,8 @@ const Banner = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bn1-grid1 banner-grid">
                     {/* <div className="small-colored">Change your view of Copy writing</div> */}
                     <Zoom clear duration={3000}>
-                        <div className="big-bold" id='big-bold-1'>Stories are Magnets that automatically attract prospects  </div>
-                        <div className="big-bold" id="big-bold-2">to your Business and put them in your hands.</div>
+                        <div className="big-bold" id='big-bold-1'>Stories are Magnets that automatically attract <span className="big-bold-colored">prospects </span> </div>
+                        <div className="big-bold" id="big-bold-2">to your <span className="big-bold-colored">Business</span> and put them in your hands.</div>
                     </Zoom>
                     <Zoom clear duration={1500}>
                         <div className="small-text">
