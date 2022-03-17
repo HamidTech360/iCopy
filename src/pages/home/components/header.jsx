@@ -90,7 +90,7 @@ const Header = () => {
                   <Divider/>
                 </div>:
                   <div className="NavBar-item" key={index} style={{backgroundColor:item.isActive?'rgba(255, 255, 255, 0.15)':'', paddingLeft:'50px', paddingBottom:'15px',paddingTop:'15px',  borderBottom:'1px solid whitesmoke'}}>
-                      <Link to={item.link} style={{textDecoration:'none', color:'#2b044d', fontWeight:'800'}}>
+                      <Link to={item.link} style={{textDecoration:'none', color:'black', fontWeight:'800'}}>
                         <span className="NavBar-item-item-icon"> <i className={`fa ${item.icon} fa-1x`}></i> </span>
                          <span className="NavBar-item-item-text">{item.name}</span>
                       </Link>

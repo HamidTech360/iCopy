@@ -1,10 +1,10 @@
 .about-banner{
-    padding-top: 70px;
+    /* padding-top: 70px; */
     padding-left: 100px;
     background-color: #eff6f2;
 }
 .about-bold{
-    padding-top: 50px;
+    padding-top: 100px !important;
     margin-bottom: -15px;
 }
 .about-line{
@@ -22,9 +22,12 @@
     .about-banner{
         padding-left: 0px;
         padding-top: 40px;
+        padding-bottom: 60px;
+        /* background-image: url('../../../assets/bg3.jpg'); */
     }
     .about-bold{
         margin-bottom: -15px;
+        /* color: #eb8908; */
     }
     .about-line{
         margin-bottom: 0px;
@@ -36,5 +39,6 @@
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
         margin-top: 30px;
+        /* color: #2b044d; */
     }
 }

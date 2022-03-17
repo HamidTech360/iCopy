@@ -92,15 +92,17 @@
         color: black;
     }
     .banner1{
-       padding-left: 20px;
+       padding-left: 0px;
        padding-right: 20px;
-       background-image: url('../../../../assets/bg4.jpg');
-       /* opacity: 0.7; */
+       /* background-image: url('../../../../assets/bg4.jpg'); */
+        background-size: cover;
+        /* background-position: 10%; */
+       /* opacity: 0.9; */
   
     }
     .banner-grid{
        padding-top: 50px;
-       padding-left: 20px !important;
+       padding-left: 35px !important;
        
         /* text-align: center; */
     }
@@ -111,7 +113,7 @@
         line-height: 48px;
         padding-right: 20px !important;
         color: black;
-        font-family: 'Roboto Slab', serif;
+        /* font-family: 'Roboto Slab', serif; */
     }
     #big-bold-1{
         max-width: 370px;
