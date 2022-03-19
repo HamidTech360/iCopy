@@ -1,0 +1,33 @@
+.main-service-details{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color:rgb(255, 255, 255);
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.stepBystep{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.stepBystep-header{
+    font-weight: 700;
+    font-size: 29px;
+    max-width: 600px;
+}
+.stepBystep-bold{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+#stepBystep-light{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .stepBystep-header{
+        font-weight: 700;
+        font-size: 24px;
+        max-width: 600px;
+    }
+}

@@ -1,0 +1,25 @@
+.service-list{
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.service-list-header{
+    font-weight: 700;
+    font-size: 28px;
+    max-width: 500px;
+}
+.service-list-items{
+    margin-top: 30px;
+    font-size: 18px !important;
+}
+.service-list-grid{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:768px) {
+   .service-list{
+       padding-left: 15px;
+       padding-right: 15px !important;
+   } 
+}

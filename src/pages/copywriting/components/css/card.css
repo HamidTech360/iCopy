@@ -1,0 +1,49 @@
+.main-service-card{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 200px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+}
+.main-card-header{
+    font-size: 23px;
+    color: #cc1571;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+#main-service-copywriting-btn{
+    border-radius: 5px;
+    height: 40px !important;
+    margin-top: 20px;
+}
+.per-month{
+    font-size: 17px;
+    font-weight: 600;
+}
+.small-card-header{
+    /* font-weight: 500;
+    font-size: 15px; */
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.card-list-items{
+    font-size: 18px;
+    /* color: rgb(71, 70, 70); */
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-weight: 600;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.card-list-item{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .main-service-card{
+        margin-right: 0px;
+    }
+}

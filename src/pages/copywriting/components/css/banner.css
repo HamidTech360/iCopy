@@ -12,3 +12,14 @@
     font-size: 40px;
     padding-top: 170px;
 }
+.copywritting-bold{
+    padding-top: 100px !important;
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width:768px){
+    .copywriting-banner-grid{
+        padding-bottom: 30px;
+    }
+}

@@ -1,17 +1,17 @@
 import React, {useState, useEffect} from 'react';
 import Header from '../home/components/header';
-import ServiceBanner from './components/banner';
-import ServiceCards from './components/service-cards';
+import Banner from './components/banner'
 import Footer from '../../components/footer/footer';
 
-const Services = () => {
+const EmailMarketing = () => {
+
     const [preloader, setPreloader] = useState(true)
    
     useEffect(()=>{ 
         
         setTimeout(()=>{
             setPreloader(false)
-          },700)
+          },1000)
          // window.scrollTo(0,0)
     },[])
 
@@ -20,14 +20,13 @@ const Services = () => {
           <div class="preloader"></div>
         )
       }
+
     return ( 
-        <div className="services">
+        <div className="emailMarketing">
             <Header/>
-            <ServiceBanner/>
-            <ServiceCards/>
-            <Footer/>
+            <Banner/>
         </div>
      );
 }
  
-export default Services;
+export default EmailMarketing;

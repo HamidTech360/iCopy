@@ -6,6 +6,7 @@
 .about-bold{
     padding-top: 100px !important;
     margin-bottom: -15px;
+    padding-right: 20px;
 }
 .about-line{
     border: 0px;
@@ -21,13 +22,19 @@
 @media screen and (max-width:768px) {
     .about-banner{
         padding-left: 0px;
-        padding-top: 40px;
+        padding-top: 100px;
         padding-bottom: 60px;
         /* background-image: url('../../../assets/bg3.jpg'); */
     }
     .about-bold{
         margin-bottom: -15px;
         /* color: #eb8908; */
+        line-height: 48px;
+        padding-left: 15px  !important;
+        padding-right: 15px !important;
+        padding-top: 0px !important;
+        font-size: 37px !important;
+       
     }
     .about-line{
         margin-bottom: 0px;

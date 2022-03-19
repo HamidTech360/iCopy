@@ -1,9 +1,6 @@
 import React from 'react';
-import Card from './card';
-import Card2 from './card2';
-import './css/servicelist.css'
 
-const ServiceList = () => {
+const Services = () => {
     return ( 
         <div className="service-list">
             <div className="row">
@@ -20,4 +17,4 @@ const ServiceList = () => {
      );
 }
  
-export default ServiceList;
+export default Services;
