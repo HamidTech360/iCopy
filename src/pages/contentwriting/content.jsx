@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import Header from '../home/components/header';
-import Banner from './components/banner'
-import Services from './components/service';
+import ContentBanner from './components/banner';
 import Footer from '../../components/footer/footer';
 
-const EmailMarketing = () => {
+const ContentWriting = () => {
 
     const [preloader, setPreloader] = useState(true)
    
@@ -18,18 +17,16 @@ const EmailMarketing = () => {
 
     if(preloader){
         return(
-          <div class="preloader"></div>
+          <div className="preloader"></div>
         )
-      }
+    }
 
     return ( 
-        <div className="emailMarketing">
+        <div className="content-writing">
             <Header/>
-            <Banner/>
-            <Services/>
-            <Footer/>
+            <ContentBanner/>
         </div>
      );
 }
  
-export default EmailMarketing;
+export default ContentWriting;

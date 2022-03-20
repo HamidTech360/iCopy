@@ -8,7 +8,7 @@
 .main-card-header{
     font-size: 23px;
     color: #cc1571;
-    font-weight: 500;
+    font-weight: 400;
     padding-top: 40px;
     padding-bottom: 40px;
     
@@ -27,7 +27,7 @@
     font-size: 15px; */
     margin-top: 10px;
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 800;
 }
 .card-list-items{
     font-size: 18px;

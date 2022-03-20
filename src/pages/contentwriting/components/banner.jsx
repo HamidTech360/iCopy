@@ -1,14 +1,14 @@
 import React from 'react';
-import './css/banner.css'
 
-const Banner = () => {
+
+const ContentBanner = () => {
     return ( 
-        <div className="copy-banner">
-             <div className="row">
-                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12  copywriting-banner-grid" >
+        <div className="about-banner">
+            <div className="row">
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12  about-banner-grid" >
                     
-                    <div className="big-bold copywritting-bold">
-                        ICopyStory CopyWriting Services
+                    <div className="big-bold about-bold">
+                        Meet the Content Marketer
                         
                     </div>
                     <button className="about-line"></button>
@@ -21,12 +21,11 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 bn1-grid2 hideOnMobile">
-                    <img src="../../../assets/bg2.jpg" alt="banner" className="banner1-img" />
+                    <img src="../../../assets/bg3.jpg" alt="banner" className="banner1-img" />
                 </div>
             </div>
-            
         </div>
      );
 }
  
-export default Banner;
+export default ContentBanner;

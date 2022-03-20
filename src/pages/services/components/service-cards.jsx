@@ -46,7 +46,7 @@ const ServiceCards = () => {
                     <Card
                          heading="Content Writing "  
                          text='Engage your audience with mouthwatering content on your website in the form of Blog Post, Brochure, Case Studies, Press Release and White Papers.'
-                         link="/contentwritting"
+                         link="/contentwriting"
                          img="bg2.jpg"
                     />
                 </div>

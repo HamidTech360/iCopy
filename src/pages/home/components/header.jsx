@@ -7,6 +7,7 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import List from '@material-ui/core/List';
 import {HiMenuAlt1} from 'react-icons/hi'
 import {Divider} from '@material-ui/core'
+import {AiOutlineMenu} from 'react-icons/ai'
 import './css/header.css'
 
 
@@ -152,7 +153,7 @@ const Header = () => {
                 </span>
                 <span className="hideOnDesktop" onClick={toggleDrawer('right', true)} style={{fontWeight:'300'}}>
                     
-                       <HiMenuAlt1 size={33} />
+                       <AiOutlineMenu size={30} />
                    
                 </span>
             </span>

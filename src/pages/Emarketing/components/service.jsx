@@ -1,13 +1,15 @@
 import React from 'react';
+import Card from './card'
+import Card2 from './card2';
 
 const Services = () => {
     return ( 
         <div className="service-list">
             <div className="row">
-                <div className="col-lg-6 col-md- col-sm-12 col-xs-12 service-list-grid">
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 service-list-grid">
                     <Card/>
                 </div>
-                <div className="col-lg-6 col-md- col-sm-12 col-xs-12 service-list-grid">
+                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 service-list-grid">
                     <Card2/>
                 </div>
                 

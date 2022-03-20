@@ -2,11 +2,11 @@ import React from 'react';
 import { Divider } from '@material-ui/core';
 // import './css/card.css'
 
-const Card = () => {
+const Card2 = () => {
     return ( 
         <div className="main-service-card">
             <div className="main-card-header text-center">
-                Email Marketing
+                Additional Services
                 <div className="small-card-header text-center">$2000 <span className="per-month">/ Month</span> </div>
             </div>
            
@@ -14,11 +14,11 @@ const Card = () => {
             <Divider/>
 
             <div className="card-list-items text-center">
-                <div className="card-list-item">Email Copywriting  </div>
-                <div className="card-list-item">Email Marketing </div>
-                <div className="card-list-item">Email Designing </div>
-                <div className="card-list-item">Segmentation </div>
-                <div className="card-list-item">Optimization  </div>
+                <div className="card-list-item">Klaviyo </div>
+                <div className="card-list-item">Mailchimp </div>
+                <div className="card-list-item">Aweber </div>
+                <div className="card-list-item">GetResponse  </div>
+                <div className="card-list-item">Hubspot</div>
             </div>
             <Divider/>
             <div className="text-center">
@@ -28,4 +28,4 @@ const Card = () => {
      );
 }
  
-export default Card;
+export default Card2;

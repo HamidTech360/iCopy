@@ -5,6 +5,7 @@ import About from './pages/about/about'
 import Services from './pages/services/service';
 import Copywriting from './pages/copywriting/copywriting';
 import EmailMarketing from './pages/Emarketing/emarketing';
+import ContentWriting from './pages/contentwriting/content';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/about" component={About}/>
         <Route path="/copywriting" component={Copywriting}/>
+        <Route path="/contentwriting" component={ContentWriting}/>
         <Route path="/emailmarketing" component={EmailMarketing}/>
         <Route path="/service" component={Services}/>
         <Route path="/" component={Home}/>
