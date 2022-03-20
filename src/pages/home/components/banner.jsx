@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Zoom from 'react-reveal'
 
 
@@ -22,7 +23,9 @@ const Banner = () => {
                         </div>
                     </Zoom>
                     <div className="banner-btns">
-                        <button className=" get-started-btn ">YES please <i className="fa fa-arrow-right"></i> </button>
+                       <Link to="/service">
+                            <button className=" get-started-btn ">YES please <i className="fa fa-arrow-right"></i> </button>
+                       </Link>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bn1-grid2 ">

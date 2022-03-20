@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/banner.css'
 
 const AboutBanner = () => {
@@ -17,7 +18,9 @@ const AboutBanner = () => {
                         <div>Meet The StoryMarketer</div> 
                     </div>
                     <div className="banner-btns">
-                        <button className=" get-started-btn ">Get Started <i className="fa fa-arrow-right"></i> </button>
+                       <Link to="/service">
+                            <button className=" get-started-btn ">Get Started <i className="fa fa-arrow-right"></i> </button>
+                       </Link>
                     </div>
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 bn1-grid2 hideOnMobile">

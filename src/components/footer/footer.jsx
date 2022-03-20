@@ -19,8 +19,7 @@ const Footer =()=>{
                     <button className=" btn-send-mail" style={{ color:'white', fontSize:'12px', marginRight:'0px'}}>Send mail</button>
                     <input type="text" className="send-mail-inpt" />
                 </div>
-                Your reliable plug for virtual topup, data subscription, online payment 
-                and subscription system ss
+                Stories are magnets that attract prospects to your buisness 
             </div>
 
             <div className="footer-icons col-lg-5 col-md-7 col-sm-12 col-xs-12">

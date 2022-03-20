@@ -50,7 +50,7 @@ const Header = () => {
         {
             id:4,
             name:'Blogs',
-            link:'/blog'
+            link:'/blogs'
         },
     ]
     const [state, setState] = React.useState({
@@ -139,8 +139,8 @@ const Header = () => {
                             <li className="nav-item">Services</li>
                          </Link>
 
-                         <Link  to={'/portfolio'} style={{textDecoration:'none'}}>
-                            <li className="nav-item">Portfolio</li>
+                         <Link  to={'/blogs'} style={{textDecoration:'none'}}>
+                            <li className="nav-item">Blogs</li>
                          </Link>
                         
                         
