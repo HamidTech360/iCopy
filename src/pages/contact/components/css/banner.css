@@ -1,0 +1,34 @@
+.questionaire{
+    background-color: #eff6f2;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.questions{
+    padding-top: 100px;
+    max-width: 400px;
+    margin: auto;
+}
+.questions-bold{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px; 
+}
+.btn-next{
+    background-color: #8a114d;
+    width: 100%;
+    color: white;
+    height: 50px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .questions{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .questions-bold{
+        font-weight: 700;
+        font-size: 20px;
+        
+    }
+}

@@ -4,7 +4,7 @@ import ServiceBanner from './components/banner';
 import ServiceCards from './components/service-cards';
 import Footer from '../../components/footer/footer';
 
-const Services = () => {
+const Blog = () => {
     const [preloader, setPreloader] = useState(true)
    
     useEffect(()=>{ 
@@ -17,7 +17,7 @@ const Services = () => {
 
     if(preloader){
         return(
-          <div className="preloader"></div>
+          <div class="preloader"></div>
         )
       }
     return ( 
@@ -30,4 +30,4 @@ const Services = () => {
      );
 }
  
-export default Services;
+export default Blog;

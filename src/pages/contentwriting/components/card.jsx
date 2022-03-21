@@ -1,6 +1,6 @@
 import React from 'react';
 import { Divider } from '@material-ui/core';
-
+import { Link } from 'react-router-dom';
 
 const Card = () => {
     return ( 
@@ -23,7 +23,11 @@ const Card = () => {
             </div>
             <Divider/>
             <div className="text-center">
-                <button className=" get-started-btn" id="main-service-copywriting-btn">GET STARTED <i className="fa fa-arrow-right"></i> </button>
+                <Link to="/contact">
+                    <button className=" get-started-btn" id="main-service-copywriting-btn">
+                        GET STARTED <i className="fa fa-arrow-right"></i> 
+                    </button>
+                </Link>
             </div>
         </div>
      );

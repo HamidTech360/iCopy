@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Divider } from '@material-ui/core';
 // import './css/card.css'
 
@@ -22,7 +23,11 @@ const Card2 = () => {
             </div>
             <Divider/>
             <div className="text-center">
-                <button className=" get-started-btn" id="main-service-copywriting-btn">GET STARTED <i className="fa fa-arrow-right"></i> </button>
+            <Link to="/contact">
+                    <button className=" get-started-btn" id="main-service-copywriting-btn">
+                        GET STARTED <i className="fa fa-arrow-right"></i> 
+                    </button>
+               </Link>
             </div>
         </div>
      );
