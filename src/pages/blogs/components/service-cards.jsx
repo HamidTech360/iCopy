@@ -1,25 +1,42 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from 'axios'
+import {apiUrl} from '../../../config.json'
 import Card from './card'
 import Zoom from 'react-reveal'
 
 import '../css/service-cards.css'
 
 const ServiceCards = () => {
+
+    const [data, setData] = useState([])
+    useEffect(()=>{
+       async function getPosts (){
+            try{
+                const response = await axios.get(`${apiUrl}/upload/post`)
+                console.log(response.data.data);
+                setData(response.data.data)
+            }catch(ex){
+                console.log(ex.response?.data);
+            }
+        }
+        getPosts()
+    },[])
+
     return ( 
         <div className="service-cards">
             <div className="row">
+                {data.map((item, i)=>
                 <Zoom duration={1000} clear>
                     <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                         <Card
-                        heading="Hitting the target"  
-                        text='Shoot your revenue to the sky with sizzling storyselling Sales Copy, Emails, VSLs, and Landing Page Copy.'
-                        link="/copywriting"
-                        img="bg2.jpg"
+                            data={item}
                         />
                     </div>
                 </Zoom>
+                )}
+                
 
-                <Zoom duration={1000} clear>
+                {/* <Zoom duration={1000} clear>
                 <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                      <Card
                          heading="EMAIL MARKETING"  
@@ -61,7 +78,7 @@ const ServiceCards = () => {
                          img="bg3.jpg"
                     />
                 </div>
-                </Zoom>
+                </Zoom> */}
             </div>
         </div>
      );

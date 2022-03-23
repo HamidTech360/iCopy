@@ -1,0 +1,52 @@
+.tabBox{
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    /* border: 1px solid red; */
+}
+.usertab{
+    /* background-color: #eff6f2; */
+    padding-top: 10px;
+}
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid grey;
+}
+.username{
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn-follow{
+    border: 0px;
+    color: white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 10px;
+}
+.postdDate{
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+}
+.post-icons{
+    margin: 0 auto;
+    color: rgb(56, 53, 53);
+}
+.post-icon{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .post-icons{
+        padding-left: 40px;
+        margin-top: 30px;
+    }
+}

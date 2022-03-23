@@ -22,7 +22,7 @@ const useStyles = makeStyles({
 
 
 
-const Header = () => {
+const Header = ({bgColor}) => {
 
     const NavOptions = [
         {
@@ -110,7 +110,7 @@ const Header = () => {
     
      const styles = useStyles() 
     return ( 
-        <div className="header">
+        <div className="header" style={{backgroundColor:bgColor}}>
           <SwipeableDrawer
             anchor={'right'}
             open={state['right']}
