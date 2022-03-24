@@ -13,9 +13,9 @@ const Blog = (props) => {
    
     useEffect(()=>{ 
         
-        setTimeout(()=>{
-            setPreloader(false)
-          },700)
+        // setTimeout(()=>{
+        //     setPreloader(false)
+        //   },700)
          
     },[])
 
@@ -25,6 +25,7 @@ const Blog = (props) => {
                 const response = await axios.get(`${apiUrl}/upload/post/${postId}`)
                 
                 setData(response.data.data)
+                setPreloader(false)
                // console.log(response.data.data);
             }catch(ex){
                 console.log(ex.response?.data);

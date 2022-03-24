@@ -45,8 +45,14 @@
 }
 
 @media screen and (max-width:768px) {
+    .usertab{
+        padding-top:35px;
+    }
     .post-icons{
         padding-left: 40px;
         margin-top: 30px;
+    }
+    .postdDate{
+        padding-right:90px;
     }
 }

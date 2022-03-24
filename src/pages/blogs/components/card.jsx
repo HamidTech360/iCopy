@@ -20,7 +20,7 @@ const Card = ({data}) => {
             <Divider/>
             <Link to={`/blog/${data._id}`} style={{textDecoration:'none'}}>
             <div className="service-footer text-center">
-                    <div className="learn-more-service">learn more</div>
+                    <div className="learn-more-service">Read more</div>
             </div>
             </Link>
         </div>
