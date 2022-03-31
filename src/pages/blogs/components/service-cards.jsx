@@ -8,6 +8,7 @@ import '../css/service-cards.css'
 
 const ServiceCards = () => {
 
+    const [preloader, setPreloader] = useState(true)
     const [data, setData] = useState([])
     useEffect(()=>{
        async function getPosts (){
@@ -15,12 +16,19 @@ const ServiceCards = () => {
                 const response = await axios.get(`${apiUrl}/upload/post`)
                 console.log(response.data.data);
                 setData(response.data.data)
+                setPreloader(false)
             }catch(ex){
                 console.log(ex.response?.data);
             }
         }
         getPosts()
     },[])
+
+    if(preloader){
+        return(
+          <div class="preloader"></div>
+        )
+      }
 
     return ( 
         <div className="service-cards">

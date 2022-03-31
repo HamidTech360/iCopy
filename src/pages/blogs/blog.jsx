@@ -15,11 +15,11 @@ const Blog = () => {
          // window.scrollTo(0,0)
     },[])
 
-    if(preloader){
-        return(
-          <div class="preloader"></div>
-        )
-      }
+    // if(preloader){
+    //     return(
+    //       <div class="preloader"></div>
+    //     )
+    //   }
     return ( 
         <div className="services">
             <Header/>

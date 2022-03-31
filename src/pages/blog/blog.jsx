@@ -42,7 +42,7 @@ const Blog = (props) => {
 
 
     return ( 
-        <div className="blog">
+        <div className="blog"  style={{backgroundColor:'white'}}>
             <Header bgColor="white" />
             <UserTab data={data} />
             <Post data={data} />
