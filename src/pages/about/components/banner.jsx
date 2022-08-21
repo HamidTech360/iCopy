@@ -17,11 +17,11 @@ const AboutBanner = () => {
                         <div>Hey there</div>   
                         <div>Meet The StoryMarketer</div> 
                     </div>
-                    <div className="banner-btns">
+                    {/* <div className="banner-btns">
                        <Link to="/service">
                             <button className=" get-started-btn ">Get Started <i className="fa fa-arrow-right"></i> </button>
                        </Link>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 bn1-grid2 hideOnMobile">
                     <img src="../../../assets/bg2.jpg" alt="banner" className="banner1-img" />

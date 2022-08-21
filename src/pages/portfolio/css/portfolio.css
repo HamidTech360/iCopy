@@ -1,11 +1,19 @@
 .portfolio{
-    margin-top: 80px;
+    padding-top: 50px;
     padding-left: 300px;
     padding-right: 300px;
     color: #3A3A5E;
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
+    /* margin-bottom: 30px; */
+    background-color: #eff6f2;
+    min-height: 100vh;
+}
+.portfolio-header{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 .btn-divider{
     border: 0px solid whitesmoke;
@@ -14,6 +22,7 @@
 }
 .categ-tab{
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 .btn-categs{
     background-color: inherit;
@@ -83,11 +92,24 @@
 .portfolio-text{
     font-size: 14px;
 }
+.portfolio-lists{
+    line-height: 50px;
+    margin-bottom: 60px;
+    font-size: 15px;
+}
+.list-header{
+    font-size: 20px;
+    font-weight: 700;
+}
+.portfolio-links{
+    margin-bottom: 60px !important;
+}
 
 @media screen and (max-width:768px) {
     .portfolio{
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 50px;
     }
     .proj-cards{
         padding-left: 20px;
@@ -96,6 +118,9 @@
     .btn-categs{
         margin-right: 0px;
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 15px;
+    }
+    .portfolio-header{
+        font-size: 23px;
     }
 }

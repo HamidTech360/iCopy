@@ -12,6 +12,7 @@ import Contact from './pages/contact/contact';
 import Blog from './pages/blog/blog'
 import Admin from './pages/admin/admin';
 import Login from './pages/login/login';
+import Portfolio from './pages/portfolio'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/emailmarketing" component={EmailMarketing}/>
         <Route path="/service" component={Services}/>
         <Route path="/admin" component={Admin}/>
+        <Route path="/portfolio" component={Portfolio} />
         <Route path="/" component={Home}/>
       </Switch> 
     </BrowserRouter>
