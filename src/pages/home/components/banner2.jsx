@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/carousel'
+import {Carousel} from 'react-bootstrap'
 import './css/banner2.css'
 const Banner2 = () => {
    
