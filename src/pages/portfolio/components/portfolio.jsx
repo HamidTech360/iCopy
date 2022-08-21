@@ -57,7 +57,7 @@ export default function Portfolio() {
             <div className=" text-center portfolio-header">Portfolio Showcase</div>
             <div className="portfolio-text">
                 Below are some of the works I've helped industries, brands, and companies with. 
-                You can ask for industry-specific samples if you so wish. It's free.
+                you can ask for industry-specific samples if you so wish. It's free.
             </div>
             <div className="text-center"><button className="btn-divider"></button></div>
             
