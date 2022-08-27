@@ -1,16 +1,18 @@
 .our-service{
     padding-top: 80px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 200px;
+    padding-right: 250px;
     padding-bottom: 80px;
     line-height: 25px;
     font-size: 14px;
     font-weight: 400;
     background-color: #fff;
+    text-align: justify;
 }
 .service-light{
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-weight: 400 !important;
+    line-height: 30px;
     white-space: pre-line;
     font-family: 'Poppins', sans-serif;
 }
@@ -46,9 +48,10 @@
 
 @media screen and (max-width:768px) {
     .our-service{
-        padding-left: 15px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
         text-align: justify;
+        font-weight: 500;
     }
    
     .service-bold{

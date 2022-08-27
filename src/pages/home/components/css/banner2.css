@@ -48,7 +48,17 @@
     width: 50px;
     
 }
+.c_item{
+    width: 500px !important;
+    margin-right: 70px;
+}
 @media screen and (max-width:768px) {
+    .c_item{
+        width: 400px !important;
+        margin-right: 70px;
+        padding-left: 80px;
+        padding-right: 10px;
+    }
     .bn1-grid1{
         margin-bottom:50px;
     }

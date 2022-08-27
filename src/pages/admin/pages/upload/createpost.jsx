@@ -73,7 +73,7 @@ const CreatePost = ()=>{
         try{
             const response = await axios.post(`${apiUrl}/upload/post`, formData, {
                 headers:{
-                    'Authorization':localStorage.getItem('auth_token')
+                    'Authorization':localStorage.getItem('icopy_auth_token')
                 }
             })
             if(response.data.status==="success"){

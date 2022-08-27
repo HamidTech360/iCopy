@@ -14,9 +14,9 @@
 .big-bold{
     font-family: 'Nunito', sans-serif;
     color: #150325;
-    font-weight: 700 !important;
-    font-size: 38px !important;
-    line-height: 48px;
+    font-weight: 800 !important;
+    font-size: 42px !important;
+    line-height: 55px;
    
     /* margin-bottom: 40px; */
     max-width: 500px;
@@ -57,11 +57,18 @@
     margin-right: 20px;
     font-weight: 400;
 }
-
+.carousel{
+    border: 0px !important;
+    outline: none !important;
+}
+.ngb-carousel:focus {
+    outline: none !important;
+}
 .banner1-img{
     height: 500px;
     width:700px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 .client-name{
     color: #fff;

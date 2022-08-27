@@ -117,7 +117,7 @@ const Header = ({bgColor}) => {
             onClose={toggleDrawer('right', false)}
             onOpen={toggleDrawer('right', true)}
             classes={{paper:styles.paper}}
-            transitionDuration={800}
+            transitionDuration={400}
           >
                {list()}
           </SwipeableDrawer>
@@ -141,6 +141,10 @@ const Header = ({bgColor}) => {
 
                          <Link  to={'/blogs'} style={{textDecoration:'none'}}>
                             <li className="nav-item">Blogs</li>
+                         </Link>
+                        
+                         <Link  to={'/portfolio'} style={{textDecoration:'none'}}>
+                            <li className="nav-item">Portfolio</li>
                          </Link>
                         
                         

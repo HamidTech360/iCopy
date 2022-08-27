@@ -1,6 +1,13 @@
 import React from 'react';
 import moment from 'moment';
+import { SocialIcon } from 'react-social-icons';
 import './css/usertab.css'
+
+const iconStyles ={
+    height:'40px',
+    width:'40px',
+    marginRight:'20px'
+}
 
 const UserTab = ({data}) => {
     return ( 
@@ -9,23 +16,23 @@ const UserTab = ({data}) => {
                 <img src="../../../../assets/client.jpg" alt="client" className='userImg' />
                 <div className="userInfo">
                     <div className="username">
-                        Hammed Tech 360 <button className="btn-follow bg-success">Follow</button>
+                        Yususf Tajudeen <button className="btn-follow bg-success">Follow</button>
                     </div>
                     <div className="postdDate">
                         {moment(data.updatedAt).format('LLL')} . 4 minutes read 
                     </div>
                 </div>
                 <div className="pull-right post-icons hideOnMobile">
-                    <i className="fa fa-twitter post-icon"></i>
-                    <i className="fa fa-facebook post-icon"></i>
-                    <i className="fa fa-linkedin post-icon"></i>
+                    <SocialIcon style={iconStyles} url="https://twitter.com/jaketrent" />
+                    <SocialIcon style={iconStyles} url="https://facebook.com/jaketrent" />
+                    <SocialIcon style={iconStyles} url="https://linkedin.com/jaketrent" />
                 </div>
                 
             </div>
             <div className="post-icons hideOnDesktop">
-                    <i className="fa fa-twitter post-icon"></i>
-                    <i className="fa fa-facebook post-icon"></i>
-                    <i className="fa fa-linkedin post-icon"></i>
+                    <SocialIcon style={iconStyles} url="https://twitter.com/jaketrent" />
+                    <SocialIcon style={iconStyles} url="https://facebook.com/jaketrent" />
+                    <SocialIcon style={iconStyles} url="https://linkedin.com/jaketrent" />
             </div>
         </div>
      );
